@@ -6,13 +6,16 @@
 git clone git@github.com:gaotu-tech-fe/gaotu-tech-fe.github.io.git
 ```
 
-切换至`dev`分支（master存放编译完后文件），安装依赖
+> 切换至`dev`分支（master存放编译完后文件）安装依赖
 ```bash
 cd gaotu-tech-fe.github.io
-git checkout dev 
-npm install
+git checkout dev    # 切换至dev
+npm install         # 安装依赖
 ```
-
+> 切换到自己分支
+```bash
+git checkout -b feature-xxx
+```
 ## 2. 写文章
 1. 新建md
 ```bash
@@ -49,3 +52,4 @@ hexo s
 hexo d
 ```
 ## end
+流程有点繁琐，待优化
