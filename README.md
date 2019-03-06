@@ -6,13 +6,13 @@
 git clone git@github.com:gaotu-tech-fe/gaotu-tech-fe.github.io.git
 ```
 
-> 切换至`dev`分支（master存放编译完后文件）安装依赖
+切换至`dev`分支（master存放编译完后文件）安装依赖
 ```bash
 cd gaotu-tech-fe.github.io
 git checkout dev    # 切换至dev
 npm install         # 安装依赖
 ```
-> 切换到自己分支
+切换到自己分支
 ```bash
 git checkout -b feature-xxx
 ```
@@ -34,6 +34,10 @@ categories: 分类
 # 此处是你的内容
 ```
 ## 3. 合并到dev提交
+```bash
+git chekcout dev
+git merge feature
+```
 ## 4. 在dev上发布
 1) 先清理
 ```bash
