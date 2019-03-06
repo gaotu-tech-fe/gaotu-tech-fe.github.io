@@ -111,8 +111,8 @@ creative_commons:
 
 # Follow me on GitHub banner in right-top corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/gaotu-tech-fe/
   title: Follow me on GitHub
 
 
@@ -148,13 +148,13 @@ exturl: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
+  about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
-  archives: /archives/ || archive
+  archives: /archives/ || archives
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  #commonweal: 404.html || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -205,9 +205,9 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: Links
+links_title: 友情链接
 links_layout: block
-#links_layout: inline
+# links_layout: inline
 links:
   高途课堂: https://www.gaotu100.com
 
