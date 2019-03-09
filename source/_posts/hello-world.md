@@ -1,5 +1,7 @@
 ---
 title: Hello World
+tags: hello
+categories: 扯淡
 ---
 
 # Hello World

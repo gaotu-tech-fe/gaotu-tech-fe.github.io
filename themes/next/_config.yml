@@ -148,9 +148,9 @@ exturl: false
 # External url should start with http:// or https://
 menu:
   home: / || home
+  tags: /tags/ || tags
+  categories: /categories/ || th
   about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
   archives: /archives/ || archives
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
